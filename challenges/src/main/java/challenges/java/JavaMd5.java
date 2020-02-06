@@ -1,6 +1,5 @@
 package challenges.java;
 
-import javax.xml.bind.DatatypeConverter;
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -16,7 +15,7 @@ public class JavaMd5 {
 
         byte[] hash = digest.digest(input.getBytes("UTF-8"));
 
-        System.out.println(DatatypeConverter.printHexBinary(hash).toLowerCase());
+//        System.out.println(DatatypeConverter.printHexBinary(hash).toLowerCase());
 
     }
 }
